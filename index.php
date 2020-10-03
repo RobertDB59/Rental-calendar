@@ -63,7 +63,7 @@
             <h2><?php echo"$year"; ?></h2>
             <a class="btn btn-link btn-xs" href="<?php echo $_SERVER['PHP_SELF'].'?month='.($month-1).'&year='.$year; ?>">Prev month</a> <!-- Previous month -->
             <a class="btn btn-link btn-xs" href="<?php echo $_SERVER['PHP_SELF'].'?week='.($week-1).'&year='.$year; ?>">Prev week</a> <!-- Previous week -->
-            <a class="btn btn-link btn-xs" href="weekly.php">This week</a> <!-- Current week -->
+            <a class="btn btn-link btn-xs" href="index.php">This week</a> <!-- Current week -->
             <a class="btn btn-link btn-xs" href="<?php echo $_SERVER['PHP_SELF'].'?week='.($week+1).'&year='.$year; ?>">Next week</a> <!-- Next week -->
             <a class="btn btn-link btn-xs" href="<?php echo $_SERVER['PHP_SELF'].'?month='.($month+1).'&year='.$year; ?>">Next month</a> <!-- Next month -->
           </center>
